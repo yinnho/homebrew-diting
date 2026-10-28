@@ -1,15 +1,15 @@
 class Diting < Formula
   desc "Engine-first browser for AI agents. One Rust binary, built-in V8, no Chromium"
   homepage "https://github.com/yinnho/diting"
-  version "0.7.0"
+  version "0.8.3"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/yinnho/diting/releases/download/v0.7.0/diting-v0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9f3b8fe946a489533011e5b9bc227505f6f0c3bbf665537fb0b5090bac6fac63"
+      url "https://github.com/yinnho/diting/releases/download/v0.8.3/diting-v0.8.3-x86_64-apple-darwin.tar.gz"
+      sha256 "490c965f2f9130df5b56327c32c09f0ba14d96e5c87e7ef65aa8e779d2e25fa1"
     elsif Hardware::CPU.arm?
-      url "https://github.com/yinnho/diting/releases/download/v0.7.0/diting-v0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "238e79051bd7bcf6e1c4170e49eead01c9a01b8bad4bf93c34075b1be67d3b77"
+      url "https://github.com/yinnho/diting/releases/download/v0.8.3/diting-v0.8.3-aarch64-apple-darwin.tar.gz"
+      sha256 "1679d2be606929797e18e749bf318f5ae8c893c9a22089e7821c6adfec23b5fe"
     end
   end
 
